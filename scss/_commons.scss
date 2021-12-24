@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+ 
+ //definimos colores
+ $colores:(
+ azul:#374B73,
+ rosa:rgb(247, 108, 131),
+ white:white,
+ grey:#d1cccd
+ );
+ 
+ //margin padding
+ $px-1:1em;
+ $mx-1:1em;
+ $pt-1:150px;
+ $pt-2:180px;
+ 
+ 
+ 
+ //decoracion
+ $listsyle:none;
+ $text-deco:none;
+ //display 
+ $d-flex:flex;
+ 
+ //SIZING
+ $w-50:50%;
+ $w-25:25%;
+ $h-50:50%;
+
+ //Operaciones
+   $lang:ar;
+
+   

@@ -1,0 +1,140 @@
+body{
+    background: rgb(255,209,220);
+    background: linear-gradient(59deg, rgba(255,209,220,1) 39%, rgba(55,75,115,1) 69%, rgba(55,75,115,1) 100%);
+    height: 100vh;
+    color:rgb(194, 192, 192);
+    font-family:'Lato', sans-serif;
+    overflow-x: hidden;
+      
+}
+
+ .index{
+   margin-top:100px;
+  
+ }
+ .paddingbottom{
+   padding-bottom:220px ;
+ }
+ .index__logo{
+     text-align: center;
+     margin-top: 50px;
+     
+
+ }
+
+  .h1{
+    font-size:2em;
+    font-weight:700;
+    
+   }
+     /*migas de pan*/
+      .breadcrumb_display{
+        display:block;
+      }
+
+    /* CARD*/
+    .card__resultados{
+    background-color:rgb(255,209,220);
+}
+  .text-decoration{
+   list-style-type:$text-deco;
+   text-decoration:$text-deco;
+   list-style:$text-deco;
+  }
+
+header a{
+    text-decoration:$text-deco;
+    list-style: none;
+    list-style-type: $text-deco;
+}
+div{
+    justify-content:center;
+    .div__text{ 
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        font-weight:400;
+    }
+}
+
+h1{
+    
+    letter-spacing: 20px;
+        
+}
+
+.table{ 
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding-top: 20px;
+
+    
+  }
+
+/*pagina error 404*/
+ 
+  .color__texto404{
+    color:#374B73;
+  font-family:'Alfa Slab One', cursive;}
+  .centrar__texto{
+    text-align: center;
+    justify-content: center;
+    color:#374B73;
+   }
+
+   .padding__404{
+     padding-top:240px;
+     }
+
+     /*colores de texto*/
+     .text-blue{
+      color:#374B73
+     
+    }
+    .text-pink{
+      color:rgb(255, 116, 139)
+    }
+    .text-pinklight{
+      color:hsl(346, 94%, 86%)
+    }
+
+    .text-greey{
+      color:rgba(207, 217, 224, 0.884)
+    }
+    
+ /*MEDIA*/
+
+ @media only screen and (max-width:575px){
+  .card-personalizada {
+    width: 300px;
+    margin-left:20px;
+    
+   }
+}
+ @media only screen and (max-width:767px){
+   nav ul li a{
+     color:#374B73!important;
+   }
+  
+   .header__cajas-texto{
+    height: 100%;
+    width:100%;
+    display:none
+ }
+}
+ 
+ @media only screen and (max-width:991px){
+  nav ul li a{
+    color:#374B73!important;
+    
+  }
+  .header__cajas-texto{
+    height: 100%;
+    width:100%;
+    display:none
+ }
+ .padding-top{
+  padding-top:40px;
+}
+}

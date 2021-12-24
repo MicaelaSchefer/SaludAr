@@ -1,0 +1,35 @@
+nav{
+    display:$d-flex;
+    justify-content:right;
+    padding: $px-1;
+    ul{
+        display:$d-flex;
+        li{
+            list-style:$listsyle;
+            a{
+               
+                list-style:$listsyle;
+                margin-right: 10px;
+                text-decoration:$text-deco;
+                font-family:'Lato', sans-serif;
+                
+
+            }
+        }
+  }
+
+  
+  
+}
+.nav__Bar{
+    display:$d-flex;
+    justify-content:space-between;
+    a{
+        list-style: none;
+        margin-right: 10px;
+        text-decoration:$text-deco;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700
+       
+     }
+}
